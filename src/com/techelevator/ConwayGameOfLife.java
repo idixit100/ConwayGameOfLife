@@ -1,8 +1,10 @@
 package com.techelevator;
-import java.util.*;
 
-public class ConwayLife {
-	final static public int[][] MOORE_HOOD={{-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
+import java.util.ArrayList;
+import java.util.List;
+
+public class ConwayGameOfLife {
+final static public int[][] MOORE_HOOD={{-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
